@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Spline Sans" sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+h1, h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color: #222;
+}
+a{
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover {
+    color: #F58d17;
+}
+.btn{
+    border-radius: 20;
+}
+.btn-brand{
+    color: #fff;
+    font-weight: 500;
+    border-color: #0d6efd;
+    background-color: #0d6efd;
+}
+.btn-brand:hover{
+    border-color: darkblue;
+    background-color: darkblue;
+    color: #fff;
+}
+.btn:hover {
+    border-color: darkblue;
+    background-color: darkblue;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.slide-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/healthy-grilled-cheese-00-intro-1440x810.jpg);
+}
+.slide-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto
+}
+#menu .nav-pills  .nav-link{
+    background-color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+#menu .nav-pills  .nav-link.active{
+    background-color: #0d6efd;
+    color: white;
+}
+#menu .nav-pills  .nav-link:hover{
+    border-color: #0d6efd;
+    background-color: #0d6efd;
+}
+.shadow-on-hover{
+    transition: all 0.3s;
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+#about .devider{
+    width: 60px;
+    height: 2px;
+    display: block;
+    background-color: #0d6efd;
+}
+.penguin{
+    height: 210px;
+    width: 280px;
+}
+#rendeles .form-control{
+    border-radius: 0;
+}
+#rendeles .form-control:focus{
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+#rendeles input.form-control{
+    height: 47px;
+}
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/linux-juice-windows-white-wallpaper-preview.jpg);
+    padding-top: 280px;
+    padding-bottom: 50px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer img {
+    max-width: 175px;
+    max-height: 180px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
